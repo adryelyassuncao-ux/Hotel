@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/adryely/hotel/hotel.csproj",
+      "projectUniqueName": "/media/adryely/ADRYELY/2ºDS/DS/atividade/hotel/hotel.csproj",
       "projectName": "hotel",
-      "projectPath": "/home/adryely/hotel/hotel.csproj",
+      "projectPath": "/media/adryely/ADRYELY/2ºDS/DS/atividade/hotel/hotel.csproj",
       "packagesPath": "/home/adryely/.nuget/packages/",
-      "outputPath": "/home/adryely/hotel/obj/",
+      "outputPath": "/media/adryely/ADRYELY/2ºDS/DS/atividade/hotel/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/adryely/.nuget/NuGet/NuGet.Config"
