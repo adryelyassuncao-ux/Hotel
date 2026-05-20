@@ -58,7 +58,7 @@ class Quarto
     }
     public decimal CalcularValor(int dias)
     {
-        if(dias > 0)
+        if(dias <= 0)
         {
             throw new ArgumentException("A quantidade de dias tem que ser maior que zero");
         }

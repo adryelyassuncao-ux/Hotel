@@ -108,15 +108,90 @@ class Program
 
         if(quartoEncontrado != null)
             {
-                
-            }   
+                if(!string.IsNullOrEmpty(quartoEncontrado.Nome))
+                {
+                    string nomeCliente = quartoEncontrado.Nome;
+
+                    quartoEncontrado.CancelarReserva();
+
+                    Console.WriteLine($"A reserva do cliente {nomeCliente} para o quarto {numero} foi cancelada com sucesso ");
+                }
+                else
+                {
+                    Console.WriteLine($"O quarto {numero} já está livre. Não há reserva para cancelar");
+                }
+
+            }
+            else
+            {
+                Console.WriteLine("Quarto não encontrado");
+            }
       }
-     catch
+     catch (FormatException)
       {
-            
+            Console.WriteLine("Você precisa digitar um número de quarto válido");
       }
+      catch (Exception erro)
+        {
+            Console.WriteLine($"Erro inesperado: {erro.Message}");
+        }
     }
 
+    static void CalcularValorEstadia(List<Quarto> lista)
+    {
+        Console.WriteLine("Digite o número do quarto:");
+        int numero = int.Parse(Console.ReadLine()!);
+
+        Quarto quartoEncontrado = BuscarQuarto(numero, lista);
+
+        if(quartoEncontrado != null)
+        {
+            Console.Write("Digite a quantidade de dias da estadia:");
+            int dias = int.Parse(Console.ReadLine()!);
+
+            decimal valorTotal = quartoEncontrado.CalcularValor(dias);
+
+            Console.WriteLine($"Valor da diária: {quartoEncontrado.ValorDiaria:C2} ");
+            Console.WriteLine($"O valor total da hospedagem para o quarto {numero} é: {valorTotal:C2}");
+        }
+        else
+        {
+            Console.WriteLine("Quarto não encontrado!");
+        }
+    }
+    static void ExibirDadosQuarto(List<Quarto> lista)
+    {
+        Console.Write("Digite o número do quarto que deseja consultar: ");
+        int numero = int.Parse(Console.ReadLine()!);
+
+        Quarto quartoEncontrado = BuscarQuarto(numero, lista);
+
+        if(quartoEncontrado != null)
+        {
+            Console.WriteLine("Dados do Quarto");
+
+            Console.WriteLine($"Número do Quarto: {quartoEncontrado.Numero}");
+            Console.WriteLine($"Valor da Diária: {quartoEncontrado.ValorDiaria:C2}");
+
+            if(string.IsNullOrEmpty(quartoEncontrado.Nome))
+            {
+                Console.WriteLine("Status Livre");
+                Console.WriteLine("Hóspede: (Nenhum hóspede no momento)");
+            }
+            else
+            {
+                Console.WriteLine("Status: Ocupado");
+
+                Console.WriteLine($"Hóspede: {quartoEncontrado.Nome}");
+            }
+            Console.WriteLine("-----------------------");
+        }
+            else
+            {
+                Console.WriteLine("Quarto não encontrado!");
+            }
+       
+    }
     static void Main()
     {
         
@@ -135,7 +210,7 @@ class Program
         switch (numero)
         {
             case 1:
-          CriarQuarto(ListadeQuatos);
+            CriarQuarto(ListadeQuatos);
             break;
 
             case 2:
@@ -143,6 +218,16 @@ class Program
             break;
 
             case 3:
+            CancelarReserva(ListadeQuatos);
+            break;
+
+            case 4:
+            CalcularValorEstadia(ListadeQuatos);
+            break;
+
+            case 5:
+            ExibirDadosQuarto(ListadeQuatos);
+            break;
 
         }
 
