@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = hotel
-build_property.ProjectDir = /media/adryely/ADRYELY/2ºDS/DS/atividade/hotel/
+build_property.ProjectDir = /home/adryely/Área de Trabalho/hotel/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

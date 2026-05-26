@@ -192,11 +192,51 @@ class Program
             }
        
     }
+
+    static void MudarValor()
+    {
+    Console.WriteLine("Alterar valor");
+    Console.WriteLine($"1- Economico (Atual: {precoeconomico:C2})");
+    Console.WriteLine($"2- Executivo (Atual: {precoexecutivo:C2})");
+    Console.WriteLine($"3- Master (Atual: {precomaster:C2}");
+    Console.WriteLine("Escolha qual categoria alterar 1-3:");
+
+    int opcao = int.Parse(Console.ReadLine()!);
+
+    if(opcao >=1 && opcao <= 3)
+        {
+            Console.Write("Digite o novo valor da diária: R$");
+            decimal novoValor = decimal.Parse(Console.ReadLine()!);
+
+            if(opcao == 1)
+            {
+                precoeconomico = novoValor;
+                Console.WriteLine($"Categoria economica alterada para o valor {precoeconomico:C2}");
+            }
+            else if(opcao == 2)
+            {
+                precoexecutivo = novoValor;
+                Console.WriteLine($"Categoria Executivo alterada para {precoexecutivo:C2}");
+            }
+            else if (opcao == 3)
+            {
+                precomaster = novoValor;
+                Console.WriteLine($"Categoria Master alterada para {precomaster:C2}");
+            }
+            else
+            {
+                Console.WriteLine("Opção inválida");
+            }
+        }
+
+    }
     static void Main()
     {
         
       List<Quarto> ListadeQuatos = new List<Quarto>();
-
+      int opcao = 0;
+        while(opcao != 7)
+        {
         Console.WriteLine("_Menu_");
         Console.WriteLine("1- Criar quarto");
         Console.WriteLine("2- Reservar quarto");
@@ -205,9 +245,10 @@ class Program
         Console.WriteLine("5- Exibir dados do quarto");
         Console.WriteLine("6- Mudar valor");
         Console.WriteLine("7- Sair");
-
-        int numero = 7;
-        switch (numero)
+        
+        opcao = int.Parse(Console.ReadLine()!);
+        
+        switch (opcao)
         {
             case 1:
             CriarQuarto(ListadeQuatos);
@@ -229,8 +270,20 @@ class Program
             ExibirDadosQuarto(ListadeQuatos);
             break;
 
-        }
+            case 6:
+            MudarValor();
+            break; 
 
+            case 7:
+            Console.Clear();
+            Console.WriteLine("Sistema de hotel encerrado");
+            Console.WriteLine("Pressione qualquer tecla para fechar a janela");
+            Console.ReadKey();
+            Environment.Exit(0);
+            break;
+
+        }
+      }
 
     }
 }

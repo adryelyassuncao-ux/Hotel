@@ -1,0 +1,30 @@
+/media/adryely/ADRYELY/2ºDS/DS/atividade/hotel/bin/Debug/net8.0/hotel
+/media/adryely/ADRYELY/2ºDS/DS/atividade/hotel/bin/Debug/net8.0/hotel.deps.json
+/media/adryely/ADRYELY/2ºDS/DS/atividade/hotel/bin/Debug/net8.0/hotel.runtimeconfig.json
+/media/adryely/ADRYELY/2ºDS/DS/atividade/hotel/bin/Debug/net8.0/hotel.dll
+/media/adryely/ADRYELY/2ºDS/DS/atividade/hotel/bin/Debug/net8.0/hotel.pdb
+/media/adryely/ADRYELY/2ºDS/DS/atividade/hotel/obj/Debug/net8.0/hotel.GeneratedMSBuildEditorConfig.editorconfig
+/media/adryely/ADRYELY/2ºDS/DS/atividade/hotel/obj/Debug/net8.0/hotel.AssemblyInfoInputs.cache
+/media/adryely/ADRYELY/2ºDS/DS/atividade/hotel/obj/Debug/net8.0/hotel.AssemblyInfo.cs
+/media/adryely/ADRYELY/2ºDS/DS/atividade/hotel/obj/Debug/net8.0/hotel.csproj.CoreCompileInputs.cache
+/media/adryely/ADRYELY/2ºDS/DS/atividade/hotel/obj/Debug/net8.0/hotel.sourcelink.json
+/media/adryely/ADRYELY/2ºDS/DS/atividade/hotel/obj/Debug/net8.0/hotel.dll
+/media/adryely/ADRYELY/2ºDS/DS/atividade/hotel/obj/Debug/net8.0/refint/hotel.dll
+/media/adryely/ADRYELY/2ºDS/DS/atividade/hotel/obj/Debug/net8.0/hotel.pdb
+/media/adryely/ADRYELY/2ºDS/DS/atividade/hotel/obj/Debug/net8.0/hotel.genruntimeconfig.cache
+/media/adryely/ADRYELY/2ºDS/DS/atividade/hotel/obj/Debug/net8.0/ref/hotel.dll
+/home/adryely/Área de Trabalho/hotel/bin/Debug/net8.0/hotel
+/home/adryely/Área de Trabalho/hotel/bin/Debug/net8.0/hotel.deps.json
+/home/adryely/Área de Trabalho/hotel/bin/Debug/net8.0/hotel.runtimeconfig.json
+/home/adryely/Área de Trabalho/hotel/bin/Debug/net8.0/hotel.dll
+/home/adryely/Área de Trabalho/hotel/bin/Debug/net8.0/hotel.pdb
+/home/adryely/Área de Trabalho/hotel/obj/Debug/net8.0/hotel.GeneratedMSBuildEditorConfig.editorconfig
+/home/adryely/Área de Trabalho/hotel/obj/Debug/net8.0/hotel.AssemblyInfoInputs.cache
+/home/adryely/Área de Trabalho/hotel/obj/Debug/net8.0/hotel.AssemblyInfo.cs
+/home/adryely/Área de Trabalho/hotel/obj/Debug/net8.0/hotel.csproj.CoreCompileInputs.cache
+/home/adryely/Área de Trabalho/hotel/obj/Debug/net8.0/hotel.sourcelink.json
+/home/adryely/Área de Trabalho/hotel/obj/Debug/net8.0/hotel.dll
+/home/adryely/Área de Trabalho/hotel/obj/Debug/net8.0/refint/hotel.dll
+/home/adryely/Área de Trabalho/hotel/obj/Debug/net8.0/hotel.pdb
+/home/adryely/Área de Trabalho/hotel/obj/Debug/net8.0/hotel.genruntimeconfig.cache
+/home/adryely/Área de Trabalho/hotel/obj/Debug/net8.0/ref/hotel.dll

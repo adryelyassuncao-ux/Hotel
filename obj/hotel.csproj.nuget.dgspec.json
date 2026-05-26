@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/media/adryely/ADRYELY/2ºDS/DS/atividade/hotel/hotel.csproj": {}
+    "/home/adryely/Área de Trabalho/hotel/hotel.csproj": {}
   },
   "projects": {
-    "/media/adryely/ADRYELY/2ºDS/DS/atividade/hotel/hotel.csproj": {
+    "/home/adryely/Área de Trabalho/hotel/hotel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/media/adryely/ADRYELY/2ºDS/DS/atividade/hotel/hotel.csproj",
+        "projectUniqueName": "/home/adryely/Área de Trabalho/hotel/hotel.csproj",
         "projectName": "hotel",
-        "projectPath": "/media/adryely/ADRYELY/2ºDS/DS/atividade/hotel/hotel.csproj",
+        "projectPath": "/home/adryely/Área de Trabalho/hotel/hotel.csproj",
         "packagesPath": "/home/adryely/.nuget/packages/",
-        "outputPath": "/media/adryely/ADRYELY/2ºDS/DS/atividade/hotel/obj/",
+        "outputPath": "/home/adryely/Área de Trabalho/hotel/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/adryely/.nuget/NuGet/NuGet.Config"
